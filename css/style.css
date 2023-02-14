@@ -227,29 +227,24 @@ body {
 .cards {
   padding: 50px 0;
 }
-
-.cards_title {
+.cards .cards_title {
   text-align: center;
   margin: 0px 0px 30px 0px;
 }
-
-.cards__body {
+.cards .cards__body {
   max-width: 990px;
   margin: 0px auto;
 }
-
-.cards__row {
+.cards .cards__body .cards__row {
   display: flex;
   margin: 0px -22.5px;
 }
-
-.cards_column {
+.cards .cards__body .cards_column {
   flex: 0 1 33.333%;
   padding: 0px 22.5px;
   display: flex;
 }
-
-.cards__item {
+.cards .cards__body .cards_column .cards__item {
   background-color: #445162;
   color: #fff;
   border-radius: 5px;
@@ -259,32 +254,32 @@ body {
   display: flex;
   flex-direction: column;
 }
-.cards__item .cards__subtitle {
+.cards .cards__body .cards_column .cards__item .cards__subtitle {
   text-align: center;
   font-size: 24px;
   text-transform: uppercase;
   padding: 14px 0px;
 }
-.cards__item .cards_label {
+.cards .cards__body .cards_column .cards__item .cards_label {
   text-align: center;
   background-color: #fff;
   font-size: 40px;
   color: #445162;
   padding: 13px 0px;
 }
-.cards__item .cards_text {
+.cards .cards__body .cards_column .cards__item .cards_text {
   font-size: 14px;
   line-height: 24px;
   padding: 20px;
   flex: 1 1 auto;
 }
-.cards__item .cards_text p {
+.cards .cards__body .cards_column .cards__item .cards_text p {
   margin: 0px 0px 15px 0px;
 }
-.cards__item .cards_text p:last-child {
+.cards .cards__body .cards_column .cards__item .cards_text p:last-child {
   margin: 0;
 }
-.cards__item .cards__btn {
+.cards .cards__body .cards_column .cards__item .cards__btn {
   display: block;
   margin: 0px 20px;
   background-color: #fff;
